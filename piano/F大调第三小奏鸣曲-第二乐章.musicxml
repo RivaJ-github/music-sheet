@@ -8,7 +8,7 @@
     <creator type="composer">托马斯·阿特伍德</creator>
     <encoding>
       <software>MuseScore 4.5.1</software>
-      <encoding-date>2026-03-18</encoding-date>
+      <encoding-date>2026-03-19</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="yes" value="yes"/>
@@ -1612,15 +1612,13 @@
           <slur type="start" number="1"/>
           </notations>
         </note>
-      <direction placement="above">
+      <direction placement="above" system="only-top">
         <direction-type>
-          <words default-y="36.83" relative-y="10">poco rit.</words>
+          <words>rit.</words>
           </direction-type>
-        <sound>
-          <play>
-            <other-play type="vibrato">揉颤音</other-play>
-            </play>
-          </sound>
+        <direction-type>
+          <dashes type="start" number="1"/>
+          </direction-type>
         <staff>1</staff>
         </direction>
       <note default-x="48.52" default-y="20">
@@ -1651,6 +1649,12 @@
       <direction placement="below">
         <direction-type>
           <wedge type="stop" number="1"/>
+          </direction-type>
+        <staff>1</staff>
+        </direction>
+      <direction placement="above" system="only-top">
+        <direction-type>
+          <dashes type="stop" number="1"/>
           </direction-type>
         <staff>1</staff>
         </direction>
@@ -1736,10 +1740,9 @@
         </direction>
       <direction placement="above" system="only-top">
         <direction-type>
-          <words default-y="12.53" relative-y="20" font-weight="bold" font-size="12">a tempo</words>
+          <words relative-x="-7.45" relative-y="45.79" font-weight="bold" font-size="12">a tempo</words>
           </direction-type>
         <staff>1</staff>
-        <sound tempo="120"/>
         </direction>
       <note default-x="12.5" default-y="0">
         <pitch>
